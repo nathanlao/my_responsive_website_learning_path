@@ -58,10 +58,15 @@ header, .section-two {
 .container {
     width: 60%;
     margin: 0 auto;
+    /* prevent flexible width from becoming larger than the value */
+    max-width: 800px;
 }
 
 .main-img {
     width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
 }   
 
 .section-two-img {
