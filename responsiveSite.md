@@ -21,3 +21,14 @@ set dynamic font sizes that are relative to their parent's font sizes, a conveni
 
 ### em for margin and padding (relative to the element's current font size)
 - `1em` is equal to the `current element's font-size value`
+
+## rem unit: `Root em`
+- A rem unit is always relative to the `root <html> element`
+- By default, rem value will be relative a multiple of 16px
+
+## When to use px, em, rem?
+1. font sizes: use `rem`, no compounding effect, more predictoble
+2. margin & padding: use `em`, proportional scaling, based on current element's font size
+3. line-height: use `unitless` number values
+4. width: use `%`, flexible containers, flexible images
+5. max-width: use `px`, easier to manage, ensures consistency
