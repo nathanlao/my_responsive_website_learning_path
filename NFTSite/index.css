@@ -12,12 +12,13 @@ h1, h3 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.25em; /* 36px / 16px */
     color: #5bc0be;
 }
 
 h2 {
     margin-top: 0;
+    font-size: 1.75em;
 }
 
 .section-two-header {
@@ -25,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     color: #86bbbd;
 }
 
@@ -35,7 +36,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 20px;
+    font-size: 0.56em; /* 20 / 36 */
     color: #86bbbd;
 }
 
@@ -44,7 +45,7 @@ p {
 header, 
 section, 
 footer {
-    padding: 45px 0;
+    padding: 2.875em 0;
 }
 
 header, .section-two {
@@ -66,7 +67,7 @@ header, .section-two {
     width: 100%;
     max-width: 640px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2em;
 }   
 
 .section-two-img {
@@ -97,12 +98,14 @@ a:hover, a:active {
 }
 
 .btn {
-    padding: 10px 19px;
+    font-size: 1.125em;
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
     display: inline-block; /* a (links) are inline element hence can not set margin */
-    margin: 10px;
 }
 
 .btn-dark {
