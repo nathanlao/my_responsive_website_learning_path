@@ -1,3 +1,4 @@
+## What is responsive design?
 RWD is a web development approach that creates `dynamic changes` to the appearance of a website, ensure our sites work well and optimized for various screen size and orientation of the device being used to view it. Websites should adapt and accomodate any screen, and offer a seemless experience for users based on devices 
 
 **Absolute units**: pixels is a fixed unit, will always appear the same size no matter where we view them
@@ -32,3 +33,16 @@ set dynamic font sizes that are relative to their parent's font sizes, a conveni
 3. line-height: use `unitless` number values
 4. width: use `%`, flexible containers, flexible images
 5. max-width: use `px`, easier to manage, ensures consistency
+
+### Media Queries
+Be able to create different layouts depending on the size of the browser viewport
+
+### Mobile-first CSS
+1. Write the base CSS with mobile devices in mind first
+2. Use media queries to adjust the layout and design for wider screens
+
+## Commom Breakpoints:
+- 480px for mobile devices
+- 768px for tablets
+- 1024px for labtop screens
+- 1280px for desktops
