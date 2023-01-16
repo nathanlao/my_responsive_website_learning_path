@@ -12,4 +12,17 @@ Ultilizing concepts of responsive design
 </p>
 
 
+## Nintendo Splash Page
+- Using `text-transform` for case of text
+- Using `vw` and `vh` for expanding the width and height to takes up full range of the viewpoint 
+- Using `order` to reorder to items in flexbox
+- Using `box-sizing` to prevent extra padding, margin from adding to its container/form
+- Using `CSS modifier class` for DRY
+
+
+<p align="center">
+<img width="640" alt="splash" src="https://user-images.githubusercontent.com/75557717/212601643-589b8e58-f5f2-4ef5-89c9-667b197d7a7c.gif">
+</p>
+
+
 
