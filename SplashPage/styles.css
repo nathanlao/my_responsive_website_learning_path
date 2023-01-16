@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -35,8 +39,18 @@ p {
 }
 
 .beta-text,
+.top-text,
 .subheading {
     text-transform: uppercase;
+}
+
+.top-text {
+    order: -1;
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    margin: 0 auto; /* p has default margin! */
 }
 
 .fine-print {
@@ -64,9 +78,10 @@ p {
 .intro { 
     background: #f9f47f;
     color: #252525;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     min-height: 250px;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
@@ -80,6 +95,11 @@ p {
 
 .img-main {
     width: 100px;
+}
+
+.main-content p,
+form {
+    max-width: 450px;
 }
 
 /* =================
