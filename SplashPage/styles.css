@@ -39,6 +39,12 @@ p {
     text-transform: uppercase;
 }
 
+.fine-print {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
 /* =================
     Flex containers
    ================= */
@@ -76,13 +82,50 @@ p {
     width: 100px;
 }
 
-
-
-
 /* =================
     Form
    ================= */
-   
+
+input,
+button {
+    /* form does not inherit font setting, have to use inherit */
+    font-family: inherit;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input {
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    border: 2px solid #d1d5db;
+}
+    
+input:focus {
+    outline: none; /* remove the default outline */
+    border: 2px solid rgb(238, 118, 118);
+    background-color: #e6e8ec;
+}
+
+.btn {
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+    padding: 1em 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* button modifier class (xx-primary) */
+.btn-primary {
+    color: #252525;
+    background-color: #f9f47f;
+    margin-top: 1em;    
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgb(238, 118, 118);
+}
 
 /* =================
     Media queries 
