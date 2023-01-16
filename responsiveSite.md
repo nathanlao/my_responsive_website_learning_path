@@ -46,3 +46,8 @@ Be able to create different layouts depending on the size of the browser viewpor
 - 768px for tablets
 - 1024px for labtop screens
 - 1280px for desktops
+
+## Viewport Unit:
+- Always relative to the size of the `user's viewport` (the area within browswer window)
+- `vh`: viewport height -> 1vh is equal to 1% of the viewport height
+- `vw`: viewport width -> 1vw is equal to 1% of the viewport width
