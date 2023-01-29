@@ -51,3 +51,16 @@ Be able to create different layouts depending on the size of the browser viewpor
 - Always relative to the size of the `user's viewport` (the area within browswer window)
 - `vh`: viewport height -> 1vh is equal to 1% of the viewport height
 - `vw`: viewport width -> 1vw is equal to 1% of the viewport width
+
+## Flexbox vs. Grid
+Flexbox only deals with 1-dimension at a time:
+- `flex-direction: row`, we get columns (horizontal)
+- `flex-direction: column`, we get rows (vertical)
+
+Grid deals with both vertical and horizontal axis at a time:
+- Allow us to simplify our markup
+- Don't have to think too hard about how content to be grouped
+
+### Grid:
+- `Margins` no longer collapse and the `direct children` of the element become grid items
+- 
