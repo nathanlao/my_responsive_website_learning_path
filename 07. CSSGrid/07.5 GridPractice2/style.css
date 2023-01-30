@@ -9,7 +9,10 @@ body {
     padding: 1em;
 
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
+
+    /* Min size of 200px, if we can fit in more 200px, auto fill columns */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1em;
 }
 

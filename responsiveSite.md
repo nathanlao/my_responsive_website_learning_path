@@ -72,6 +72,8 @@ Grid deals with both vertical and horizontal axis at a time:
 4. `grid-template` to specify grid layout (shorthand)
 5. `minmax()`: setting a min-width and max-width to template columns and rows
 6. `repeat()`: use it when we have `mulpitle columns` that are the same width, 1st param: how many `times` to be repeated, 2nd param: `size`
+    - `auto-fit` will fit the columns we have defined into the available space
+    - `auto-fill` will keep adding in new columns, even if they are empty
 
 ### The 'fr' unit
 - Used to distribute a `fraction` of the available space
