@@ -10,7 +10,7 @@
   
   @media (min-width: 600px) {
     .grid {
-      grid-template-columns: 100px minmax(200px, 100%) minmax(100px, 200px) 100px;
+      grid-template-columns: 100px minmax(100px, 100%) minmax(100px, 200px) 100px;
       grid-template-areas: 
         "header header header header"
         ". content sidebar ."

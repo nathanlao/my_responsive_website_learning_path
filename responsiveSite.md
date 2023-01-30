@@ -71,6 +71,12 @@ Grid deals with both vertical and horizontal axis at a time:
 3. `grid-template-rows`: specify the **height** for # of rows
 4. `grid-template` to specify grid layout (shorthand)
 5. `minmax()`: setting a min-width and max-width to template columns and rows
+6. `repeat()`: use it when we have `mulpitle columns` that are the same width, 1st param: how many `times` to be repeated, 2nd param: `size`
+
+### The 'fr' unit
+- Used to distribute a `fraction` of the available space
+- Using `fr` for the size of a grid item makes it a flexible item
+- Cannot use `fr` as the minimum size in `minmax()`
 
 ### Implicit vs. Explicit rows and cols:
 - When we set up `grid-template-columons` or `grid-template-rows`, we are **explicitly** stating how big they should be
