@@ -62,14 +62,15 @@ Grid deals with both vertical and horizontal axis at a time:
 - Don't have to think too hard about how content to be grouped
 
 ### Grid:
+- `Margins` no longer collapse and the `direct children` of the element become grid items
+- Grid items `stretch` by default
+- `grid-gap` or `gap` to create gap in between rows or cols
+
 1. `display: gird` 
 2. `grid-template-columns`: specify the **width** for # of columns
 3. `grid-template-rows`: specify the **height** for # of rows
-
-- `Margins` no longer collapse and the `direct children` of the element become grid items
-- Grid items `stretch` by default
-- `grid-template` to specify grid layout
-- `grid-gap` or `gap` to create gap in between rows or cols
+4. `grid-template` to specify grid layout (shorthand)
+5. `minmax()`: setting a min-width and max-width to template columns and rows
 
 ### Implicit vs. Explicit rows and cols:
 - When we set up `grid-template-columons` or `grid-template-rows`, we are **explicitly** stating how big they should be

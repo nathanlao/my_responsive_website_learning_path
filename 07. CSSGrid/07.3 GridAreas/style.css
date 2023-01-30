@@ -2,21 +2,21 @@
     display: grid;
     grid-template-columns: 5em auto 5em;
     grid-template-areas: 
-      "sidebar header header" 
-      "sidebar content content"
-      "sidebar footer footer";
-}
-
-@media (min-width:600px) {
+      "header header header"
+      ". content ."
+      ". sidebar ."
+      "footer footer footer"
+  }
+  
+  @media (min-width: 600px) {
     .grid {
-        grid-template-columns: 5em auto auto auto 5em ;
-        grid-template-areas:
-            "header header header header header"
-            "sidebar sidebar sidebar sidebar sidebar"
-            ". content content content ."
-            "footer footer footer footer footer";
+      grid-template-columns: 100px minmax(200px, 100%) minmax(100px, 200px) 100px;
+      grid-template-areas: 
+        "header header header header"
+        ". content sidebar ."
+        "footer footer footer footer";
     }
-}
+  }
 
 .header {
     grid-area: header;
