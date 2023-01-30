@@ -63,4 +63,4 @@ Grid deals with both vertical and horizontal axis at a time:
 
 ### Grid:
 - `Margins` no longer collapse and the `direct children` of the element become grid items
-- 
+- Grid items `stretch` by default
