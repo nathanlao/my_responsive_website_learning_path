@@ -66,3 +66,7 @@ Grid deals with both vertical and horizontal axis at a time:
 - Grid items `stretch` by default
 - `grid-template` to specify grid layout
 - `grid-gap` or `gap` to create gap in between rows or cols
+
+### Implicit vs. Explicit rows and cols
+- When we set up `grid-template-columons` or `grid-template-rows`, we are **explicitly** stating how big they should be
+- If not the case, cols and rows are **implicitly** created. Using `grid-auto-rows` or `grid-auto-columns` to state how big they are
