@@ -17,6 +17,12 @@ h1, p {
 
     /* shorthand */
     grid-template: 200px 200px / 300px 300px 300px; /* 2 rows / 3 columns */
+
+    /* grid gap in between rows or cols */
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    /* short hand */
+    /* grid-gap: 0 2em; */
 }
 
 .grid-item {
