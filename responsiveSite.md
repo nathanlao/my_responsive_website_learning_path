@@ -64,3 +64,26 @@ Grid deals with both vertical and horizontal axis at a time:
 ### Grid:
 - `Margins` no longer collapse and the `direct children` of the element become grid items
 - Grid items `stretch` by default
+- `grid-gap` or `gap` to create gap in between rows or cols
+
+1. `display: gird` 
+2. `grid-template-columns`: specify the **width** for # of columns
+3. `grid-template-rows`: specify the **height** for # of rows
+4. `grid-template` to specify grid layout (shorthand)
+5. `minmax()`: setting a min-width and max-width to template columns and rows
+6. `repeat()`: use it when we have `mulpitle columns` that are the same width, 1st param: how many `times` to be repeated, 2nd param: `size`
+    - `auto-fit` will fit the columns we have defined into the available space
+    - `auto-fill` will keep adding in new columns, even if they are empty
+
+### The 'fr' unit
+- Used to distribute a `fraction` of the available space
+- Using `fr` for the size of a grid item makes it a flexible item
+- Cannot use `fr` as the minimum size in `minmax()`
+
+### Implicit vs. Explicit rows and cols:
+- When we set up `grid-template-columons` or `grid-template-rows`, we are **explicitly** stating how big they should be
+- If not the case, cols and rows are **implicitly** created. Using `grid-auto-rows` or `grid-auto-columns` to state how big they are
+
+### Grid areas:
+- `grid-template-areas` and `grid-area`
+- Keeping track of row and column by assigning grid areas, effectively giving `names` to different parts of our grid and assign items to those areas
